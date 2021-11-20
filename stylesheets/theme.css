@@ -106,6 +106,10 @@ button:hover {
     border: 2px solid #32c832;
     font-family: Typewriter;
     font-weight: bold;
+    font-size: 15px;
     border-radius: 4px;
     transition-duration: 0.2s;
     cursor: pointer;
+    width: 150px;
+    height: 55px;
+}
