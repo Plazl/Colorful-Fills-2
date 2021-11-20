@@ -7,6 +7,7 @@
 	<script type="text/javascript" src="src/core.js"></script>
 </head>
 <body onload='loadGame()'>
+	<input type="button" class="trsbtn, transcend_reality_btn" onClick="transcend()" style="display:none" value="I must transcend this world.">
 	<div id='loading'>
 		<div style='position:absolute;top:50%;transform:translate(0,-50%);background-color:#7f7f7f;width:100%;text-align:center'>
 			<b style='font-size:72px'>
@@ -23,7 +24,7 @@
 		<button id='tabButton_about' onclick='switchTab("about")'>About</button>
 	</div>
 	<table id='tab_colors'>
-		<input type="button" class="trsbtn, transcend_reality_btn" onClick="transcend()" style="display:none" value="I must transcend this world.">
+		
 		<tr id='clock' style='display:none'>
 			<td><b>Clock speed</b>: <text id='clockSpeed'></text> Hz</td>
 			<td colspan=2>
